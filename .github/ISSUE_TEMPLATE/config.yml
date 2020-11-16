@@ -1,5 +1,5 @@
 blank_issues_enabled: false
-conctact_links:
+contact_links:
   - name: Submit a Bug for the Netdata Agent
     url: https://github.com/netdata/netdata/issues/new?labels=bug%2C+needs+triage&template=bug_report.md
     about: Submit a report and help us improve our Open-Source free Netdata Agent
