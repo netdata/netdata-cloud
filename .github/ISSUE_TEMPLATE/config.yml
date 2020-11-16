@@ -3,7 +3,7 @@ contact_links:
   - name: Submit a Bug for the Netdata Agent
     url: https://github.com/netdata/netdata/issues/new?labels=bug%2C+needs+triage&template=bug_report.md
     about: Submit a report and help us improve our Open-Source free Netdata Agent
-  - name: Submit a Feature Request:
+  - name: Submit a Feature Request
     url: https://community.netdata.cloud
     about: Make a feature request for Netdata Cloud or Netdata Agent
   - name: Help
