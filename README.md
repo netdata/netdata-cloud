@@ -20,7 +20,7 @@ Finally, if you enjoy Netdata Cloud, make sure to leave us a ✨.
 
 ## Resources
 
-- Learn more about [Netdata cloud](https://www.netdata.cloud/cloud/)
+- Learn more about [Netdata Cloud](https://www.netdata.cloud/cloud/)
 - Learn how to do [Infrastructure Monitoring](https://learn.netdata.cloud/docs/quickstart/infrastructure) with Netdata Cloud
 - Netata Cloud [Reference Documentation](https://learn.netdata.cloud/docs/cloud)
 
