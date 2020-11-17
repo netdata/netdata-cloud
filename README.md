@@ -6,7 +6,7 @@ Netdata Cloud gives you complete visibility into every system and application pe
 
 ## Issue tracker
 
-This repository is used as an issue tracker for public **bug** tracking of Netdata Cloud. Netdata Cloud is a **close source** SaaS offering, built on top of the open-source [Netdata Agent](https://github.com/netdata/netdata).
+This repository is used as an issue tracker for public **bug** tracking of Netdata Cloud. Netdata Cloud is a **closed source** SaaS offering, built on top of the open-source [Netdata Agent](https://github.com/netdata/netdata).
 
 Each bug has it's own issue, so the user can track the status of the bugs that she/he is interested in by [watching](https://docs.github.com/en/enterprise-server@2.20/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories) this repository.
 
