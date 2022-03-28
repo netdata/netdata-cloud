@@ -1,0 +1,65 @@
+name: "Submit a Bug for Netdata Cloud"
+description: "Create a report to help us improve our SaaS offering"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Thank you for contributing to our project!"
+  - type: markdown
+    attributes:
+      value: "If you are a member of the Netdata organization, add the label 'internal submit'"
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to reproduce the bug.
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    id: error-logs
+    attributes:
+      label: Error logs
+      description: |
+        1. Open developer devtools (e.g for [chrome](https://developers.google.com/web/tools/chrome-devtools/open)	
+        2. Submit a screenshot or better a [HAR file](https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting)
+  - type: textarea
+    id: desktop-info
+    attributes:
+      label: Desktop info
+      description: |
+         Please complete the following information:
+         - OS: [e.g. iOS]	
+         - Browser [e.g. chrome, safari]	
+         - Version [e.g. 22]
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
