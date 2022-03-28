@@ -1,4 +1,4 @@
-name: "Submit a Bug for Netdata Cloud"
+name: "Submit a Bug"
 description: "Create a report to help us improve our SaaS offering"
 title: "[Bug]: "
 labels: ["bug"]
