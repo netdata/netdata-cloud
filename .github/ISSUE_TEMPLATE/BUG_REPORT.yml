@@ -53,10 +53,9 @@ body:
     id: error-logs
     attributes:
       label: Error Logs
-      description: Submit error logs and a HAR file
-      value: |
-        1. Open developer devtools (e.g for [chrome](https://developers.google.com/web/tools/chrome-devtools/open)	
-        2. Submit a screenshot or better a [HAR file](https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting)	
+      description: |
+          1. Open developer devtools (e.g for [chrome](https://developers.google.com/web/tools/chrome-devtools/open)	
+          2. Submit a screenshot or better a [HAR file](https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting)	
     validations:
       required: false
   - type: textarea
