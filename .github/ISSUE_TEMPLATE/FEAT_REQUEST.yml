@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Submit a feature request and help us improve our free and open-source Netdata Agent.
+        Submit a feature request and help us improve Netdata Cloud.
   - type: textarea
     id: problem
     attributes:
