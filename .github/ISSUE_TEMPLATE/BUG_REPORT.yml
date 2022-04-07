@@ -1,0 +1,79 @@
+name: "Netdata Cloud: Bug report"
+description: "Submit a report and help us improve our free and open-source Netdata Agent"
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Thank you for contributing to our project!"
+  - type: markdown
+    attributes:
+      value: |
+        <img src="https://img.shields.io/github/v/release/netdata/netdata.svg?label=latest%20stable"> <img src="https://img.shields.io/badge/dynamic/xml?url=https://storage.googleapis.com/netdata-nightlies/latest-version.txt&label=latest%20nightly&query=/text()">
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting, we'd appreciate it if you:
+          - Verify that your issue is not already reported on GitHub.
+          - Check if your Netdata Agent is up to date. If not, we recommend that you [update](https://learn.netdata.cloud/docs/agent/packaging/installer/update) first.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug description
+      description: Provide a description of the bug you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to reproduce the bug.
+      value: |
+        1.
+        2.
+        3.
+        ...
+    validations:
+      required: true
+   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+   - type: textarea
+    id: error-logs
+    attributes:
+      label: Error Logs
+      description: Submit error logs and a HAR file
+      value: |
+      1. Open developer devtools (e.g for [chrome](https://developers.google.com/web/tools/chrome-devtools/open)	
+      2. Submit a screenshot or better a [HAR file](https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting)	
+    validations:
+      required: false
+   - type: textarea
+    id: desktop
+    attributes:
+      label: Desktop
+      description: Info about your client
+      value: |
+       OS: [e.g. iOS]	
+       Browser [e.g. chrome, safari]	
+       Browser Version [e.g. 22]
+    validations:
+      required: false	
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional context
+      description: Any additional information related to the issue.
+    validations:
+      required: false
