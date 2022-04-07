@@ -1,17 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Netdata Cloud: Bug Report
-    url: https://github.com/netdata/netdata-cloud/issues/new?labels=bug%2Cneeds+triage&template=BUG_REPORT.yml&title=%5BBUG%5D
-    about: Submit a report and help us improve Netdata Cloud
-  - name: Netdata Cloud: Feature Request
-    url: https://github.com/netdata/netdata-cloud/issues/new?labels=feature-request&template=FEAT_REQUEST.yml&title=%5BFEAT%5D
-    about: Submit a feature request and help us improve Netdata Cloud
   - name: Netdata Agent
     url: https://github.com/netdata/netdata/issues/new/choose
     about: Get help with the FOSS agent, submit a bug or feature request 
-  - name: Help
-    url: https://netdata.cloud/community
-    about: If you are unsure where to start, visit our community page!
   - name: Question
     url: https://community.netdata.cloud
     about: We offer community-driven support on our Community forums
