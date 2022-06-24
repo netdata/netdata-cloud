@@ -5,7 +5,7 @@ labels: ["feature request", "needs triage"]
 body:
   - type: markdown
     attributes:
-      value: "### Thank you for contributing to our project!"
+      value: "### Thank you for contributing to Netdata!"
   - type: markdown
     attributes:
       value: |

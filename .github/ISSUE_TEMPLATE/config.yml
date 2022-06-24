@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/netdata/netdata/issues/new/choose
     about: Get help with the FOSS agent, submit a bug or feature request 
   - name: Community
-    url: https://www.netdata.cloud/community
+    url: https://netdata.cloud/community
     about: If you don't know where to start, visit our community page!

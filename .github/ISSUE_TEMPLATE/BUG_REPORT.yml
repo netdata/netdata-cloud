@@ -1,11 +1,11 @@
 name: "Netdata Cloud: Bug report"
-description: "Submit a report and help us improve our free and open-source Netdata Agent"
+description: "Submit a report and help us improve Netdata Cloud"
 title: "[Bug]: "
 labels: ["bug", "needs triage"]
 body:
   - type: markdown
     attributes:
-      value: "### Thank you for contributing to our project!"
+      value: "### Thank you for contributing to Netdata!"
   - type: markdown
     attributes:
       value: |
@@ -62,7 +62,7 @@ body:
     id: desktop
     attributes:
       label: Desktop
-      description: Info about your client
+      description: Info about your browser
       value: |
        OS: [e.g. iOS]	
        Browser [e.g. chrome, safari]	
