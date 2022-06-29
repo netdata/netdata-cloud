@@ -9,7 +9,7 @@ Netdata Cloud gives you complete visibility into every system and application pe
 
 This repository is used as an public issue tracker for **bugs** and **requests** for Netdata Cloud. [Submit a new issue here](https://github.com/netdata/netdata-cloud/issues/new/choose).
 
-If you're looking to report bugs and request features for the open-source Netdata Agent, you can [submit a new issue here](https://github.com/netdata/netdata).
+If you're looking to report bugs and request features for the open-source Netdata Agent, you can [submit a new issue here](https://github.com/netdata/netdata/issues/new/choose).
 
 ## Resources & Support
 
