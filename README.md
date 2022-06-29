@@ -3,7 +3,7 @@
 
 Netdata Cloud gives you complete visibility into every system and application performance metric across your entire infrastructure, whether it’s on-premises or in the cloud. Bring teams together to find answers faster and squash the threat of anomalies or outages with composite charts, metric correlations, pre-built and custom dashboards, intelligent alarms, and collaboration tools to help you drive down your time to resolution.
 
-![](https://www.netdata.cloud/wp-content/uploads/2020/11/cloud_overview-202011-v2-1280x782.png)
+![Netdata Cloud Gif](https://user-images.githubusercontent.com/56279741/176475791-96d9f158-517f-4a29-9855-e342d2c57f0b.gif)
 
 ## Contribute with bug reports and feature requests
 
