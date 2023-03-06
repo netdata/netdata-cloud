@@ -1,0 +1,26 @@
+name: Add issues to projects
+
+on:
+  issues:
+    types:
+      - opened
+      - transferred
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add bug to project board
+        uses: actions/add-to-project@v0.1.0
+        with:
+          project-url: https://github.com/orgs/netdata/projects/45
+          github-token: ${{ secrets.NETDATABOT_ORG_GITHUB_TOKEN }}
+          labeled: bug
+
+      - name: Add feature request to project board
+        uses: actions/add-to-project@v0.1.0
+        with:
+          project-url: https://github.com/orgs/netdata/projects/50
+          github-token: ${{ secrets.NETDATABOT_ORG_GITHUB_TOKEN }}
+          labeled: 'feature request'
